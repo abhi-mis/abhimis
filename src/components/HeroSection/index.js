@@ -12,7 +12,7 @@ import {
     SubTitle,
     ResumeButtonComponent
 } from './HeroStyle';
-import HeroImg from '../../images/avatar.png';
+import HeroImg from '../../images/avatar.webp';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 

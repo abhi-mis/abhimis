@@ -1,5 +1,4 @@
-import { FaReact, FaAngular, FaVuejs, FaGit, FaDocker, FaAws } from 'react-icons/fa';
-import { SiJava, SiPython, SiNodedotjs, SiPostgresql, SiMongodb, SiFirebase, SiTravisci } from 'react-icons/si';
+
 
 export const Bio = {
   title: "Greetings, I am Abhishek Mishra",
@@ -11,7 +10,7 @@ export const Bio = {
   description: "Recent graduate in Computer Science Engineering with experience in software development, particularly in web and app development. Passionate about coding and problem-solving, I have worked on various projects and participated in hackathons.",
   github: "https://github.com/abhi-mis",
   resume: "https://drive.google.com/file/d/1xyz1234567890/view", // Replace with your resume link
-  linkedin: "https://www.linkedin.com/in/abhishek-mishra/",
+  linkedin: "https://www.linkedin.com/in/abhiconnect/",
 };
 
 export const skills = [
@@ -20,15 +19,15 @@ export const skills = [
     skills: [
       {
         name: "React JS",
-        image: <FaReact size={40} color="#61DAFB" />,
+        image: "./images/react.png", // Your local image path
       },
       {
         name: "Angular",
-        image: <FaAngular size={40} color="#DD0031" />,
+        image: "./images/angular.png", // Replace with your Angular local image
       },
       {
         name: "Vue JS",
-        image: <FaVuejs size={40} color="#4FC08D" />,
+        image: "./images/vue.png", // Replace with your Vue.js local image
       },
     ],
   },
@@ -37,15 +36,15 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image: <SiJava size={40} color="#007396" />,
+        image: "./images/java.png", // Replace with your Java local image
       },
       {
         name: "Python",
-        image: <SiPython size={40} color="#306998" />,
+        image: "./images/python.png", // Replace with your Python local image
       },
       {
         name: "Node JS",
-        image: <SiNodedotjs size={40} color="#8CC84B" />,
+        image: "./images/node.png", // Replace with your Node.js local image
       },
     ],
   },
@@ -54,15 +53,15 @@ export const skills = [
     skills: [
       {
         name: "PostgreSQL",
-        image: <SiPostgresql size={40} color="#336791" />,
+        image: "./images/postgresql.png", // Replace with your PostgreSQL local image
       },
       {
         name: "MongoDB",
-        image: <SiMongodb size={40} color="#47A248" />,
+        image: "./images/mongodb.png", // Replace with your MongoDB local image
       },
       {
         name: "Firebase",
-        image: <SiFirebase size={40} color="#FFCA28" />,
+        image: "./images/firebase.png", // Replace with your Firebase local image
       },
     ],
   },
@@ -71,23 +70,24 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: <FaGit size={40} color="#F05032" />,
+        image: "./images/git.png", // Replace with your Git local image
       },
       {
         name: "Docker",
-        image: <FaDocker size={40} color="#2496ED" />,
+        image: "./images/docker.png", // Replace with your Docker local image
       },
       {
         name: "AWS",
-        image: <FaAws size={40} color="#FF9900" />,
+        image: "./images/aws.png", // Replace with your AWS local image
       },
       {
         name: "Travis CI",
-        image: <SiTravisci size={40} color="#3EAAAF" />,
+        image: "./images/travisci.png", // Replace with your Travis CI local image
       },
     ],
   },
 ];
+
 
 export const projects = [
   {

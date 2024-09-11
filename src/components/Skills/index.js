@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { skills } from '../../data/constants';
 import { gsap } from 'gsap';
 
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
