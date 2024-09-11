@@ -113,22 +113,22 @@ const Skill = styled.div`
   }
 `;
 
-const SkillImage = styled.img`
-  width: 30px;
-  height: 30px;
-  margin-right: 12px;
+// const SkillImage = styled.img`
+//   width: 30px;
+//   height: 30px;
+//   margin-right: 12px;
 
-  @media (max-width: 768px) {
-    margin-right: 0;
-    width: 40px;
-    height: 40px;
-  }
+//   @media (max-width: 768px) {
+//     margin-right: 0;
+//     width: 40px;
+//     height: 40px;
+//   }
 
-  @media (max-width: 480px) {
-    width: 30px;
-    height: 30px;
-  }
-`;
+//   @media (max-width: 480px) {
+//     width: 30px;
+//     height: 30px;
+//   }
+// `;
 
 const SkillName = styled.span`
   font-size: 16px;

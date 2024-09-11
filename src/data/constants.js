@@ -1,8 +1,8 @@
 export const Bio = {
   title: "Greetings, I am Abhishek Mishra",
   roles: [
-    "App Developer",
-    "Web Developer",
+    "App Developement",
+    "Web Developement",
     "Problem Solving"
   ],
   description: "Recent graduate in Computer Science Engineering with experience in software development, particularly in web and app development. Passionate about coding and problem-solving, I have worked on various projects and participated in hackathons.",
@@ -35,13 +35,14 @@ export const skills = [
         icon: "fab fa-html5", // HTML5 icon from Font Awesome
       },
       {
-        name: "Dart",
-        icon: "fas fa-bullseye", // Generic icon since Dart doesn’t have a specific one
-      },
-      {
         name: "Solidity",
         icon: "fas fa-file-code", // Generic code file icon for Solidity
       },
+      {
+        name: "Dart",
+        icon: "fas fa-bullseye", // Generic icon since Dart doesn’t have a specific one
+      },
+      
     ],
   },
   {
@@ -153,7 +154,7 @@ export const projects = [
     title: "BlockFI",
     date: "June 2024 - Present",
     description: "Designed and developed features for a Decentralized Finance platform leveraging blockchain technology. Facilitated peer-to-peer financial services like lending, borrowing, and trading through smart contracts written in Solidity. Utilized stablecoins to minimize market volatility and enhance user experience within the DeFi ecosystem.",
-    image: "", // Replace with the link to the project image
+    image: "https://i.imghippo.com/files/kNS6R1726049598.png", // Replace with the link to the project image
     tags: [
       "NextJS",
       "Tailwind CSS",
@@ -164,14 +165,14 @@ export const projects = [
     ],
     category: "web",
     github: "https://github.com/abhi-mis/BlockFI",
-    webapp: "https://blockfi.example.com", // Replace with the link to the live project or demo
+    webapp: "https://blockfi.vercel.app", // Replace with the link to the live project or demo
   },
   {
     id: 2,
     title: "Pix-Mender",
     date: "February 2024",
     description: "Developed a web application using ReactJS, Express JS, Node JS, JavaScript, CSS, and Firebase that streamlines the process of uploading IDs, photos, and signatures to admission portals. Implemented a user-friendly interface where users can upload their documents all in one place. The application automatically categorizes and stores these documents in a Firebase database, organizing them into separate folders for photos, signatures, and ID documents.",
-    image: "https://example.com/pix-mender-image.png", // Replace with the link to the project image
+    image: "https://i.imghippo.com/files/SiJUY1726049662.png", // Replace with the link to the project image
     tags: [
       "ReactJS",
       "Express JS",
@@ -183,6 +184,42 @@ export const projects = [
     category: "web",
     github: "https://github.com/abhi-mis/PixMender",
     webapp: "https://pix-mender.example.com", // Replace with the link to the live project or demo
+  },
+  {
+    id: 3,
+    title: "Pragati 2024",
+    date: "March 2024",
+    description: "Designed and developed features for a Decentralized Finance platform leveraging blockchain technology. Facilitated peer-to-peer financial services like lending, borrowing, and trading through smart contracts written in Solidity. Utilized stablecoins to minimize market volatility and enhance user experience within the DeFi ecosystem.",
+    image: "https://i.imghippo.com/files/XwhrH1726049966.png", // Replace with the link to the project image
+    tags: [
+      "NextJS",
+      "Tailwind CSS",
+      "EthersJS",
+      "NodeJS",
+      "Solidity",
+      "Metamask"
+    ],
+    category: "web",
+    github: "https://github.com/abhi-mis/Pragati2024",
+    webapp: "https://pragati2024.online", // Replace with the link to the live project or demo
+  },
+  {
+    id: 4,
+    title: "Pipeline Designer",
+    date: "August 2024",
+    description: "Designed and developed features for a Decentralized Finance platform leveraging blockchain technology. Facilitated peer-to-peer financial services like lending, borrowing, and trading through smart contracts written in Solidity. Utilized stablecoins to minimize market volatility and enhance user experience within the DeFi ecosystem.",
+    image: "https://i.imghippo.com/files/5FbRF1726050117.png", // Replace with the link to the project image
+    tags: [
+      "NextJS",
+      "Tailwind CSS",
+      "EthersJS",
+      "NodeJS",
+      "Solidity",
+      "Metamask"
+    ],
+    category: "web",
+    github: "https://github.com/abhi-mis/Pragati2024",
+    webapp: "https://pragati2024.online", // Replace with the link to the live project or demo
   },
   // Add more projects following the same structure
 ];

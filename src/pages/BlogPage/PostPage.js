@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm';
 import styled from 'styled-components';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark, oneLight } from 'react-syntax-highlighter/src/styles/prism';
-import avatar from '../../images/avatar.webp';
+import avatar from '../../images/avatar.jpg';
 import { useParams } from 'react-router-dom';
 
 const Container = styled.div`
