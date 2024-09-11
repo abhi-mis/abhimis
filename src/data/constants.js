@@ -1,5 +1,3 @@
-
-
 export const Bio = {
   title: "Greetings, I am Abhishek Mishra",
   roles: [
@@ -12,39 +10,78 @@ export const Bio = {
   resume: "https://drive.google.com/file/d/1xyz1234567890/view", // Replace with your resume link
   linkedin: "https://www.linkedin.com/in/abhiconnect/",
 };
-
 export const skills = [
   {
-    title: "Frontend",
+    title: "Languages",
     skills: [
       {
-        name: "React JS",
-        image: "./images/react.png", // Your local image path
+        name: "C/C++",
+        icon: "fas fa-code", // Generic code icon as Font Awesome lacks a specific C/C++ icon
       },
       {
-        name: "Angular",
-        image: "./images/angular.png", // Replace with your Angular local image
+        name: "Java",
+        icon: "fab fa-java", // Java icon from Font Awesome
       },
       {
-        name: "Vue JS",
-        image: "./images/vue.png", // Replace with your Vue.js local image
+        name: "Python",
+        icon: "fab fa-python", // Python icon from Font Awesome
+      },
+      {
+        name: "JavaScript",
+        icon: "fab fa-js", // JavaScript icon from Font Awesome
+      },
+      {
+        name: "HTML/CSS",
+        icon: "fab fa-html5", // HTML5 icon from Font Awesome
+      },
+      {
+        name: "Dart",
+        icon: "fas fa-bullseye", // Generic icon since Dart doesn’t have a specific one
+      },
+      {
+        name: "Solidity",
+        icon: "fas fa-file-code", // Generic code file icon for Solidity
       },
     ],
   },
   {
-    title: "Backend",
+    title: "Frameworks",
     skills: [
       {
-        name: "Java",
-        image: "./images/java.png", // Replace with your Java local image
+        name: "ReactJS",
+        icon: "fab fa-react", // ReactJS icon from Font Awesome
       },
       {
-        name: "Python",
-        image: "./images/python.png", // Replace with your Python local image
+        name: "NodeJS",
+        icon: "fab fa-node", // NodeJS icon from Font Awesome
       },
       {
-        name: "Node JS",
-        image: "./images/node.png", // Replace with your Node.js local image
+        name: "NextJS",
+        icon: "fas fa-code-branch", // Generic branch icon for NextJS
+      },
+      {
+        name: "ExpressJS",
+        icon: "fas fa-server", // Generic server icon for ExpressJS
+      },
+      {
+        name: "Flutter",
+        icon: "fas fa-mobile-alt", // Generic mobile icon for Flutter
+      },
+      {
+        name: "Bootstrap",
+        icon: "fab fa-bootstrap", // Bootstrap icon from Font Awesome
+      },
+      {
+        name: "Hardhat",
+        icon: "fas fa-hat-cowboy", // Generic cowboy hat icon for Hardhat (since it doesn't have a specific one)
+      },
+      {
+        name: "Ethers.js",
+        icon: "fas fa-link", // Generic link icon for Ethers.js
+      },
+      {
+        name: "TailwindCSS",
+        icon: "fab fa-css3-alt", // CSS3 icon for TailwindCSS
       },
     ],
   },
@@ -52,16 +89,16 @@ export const skills = [
     title: "Database",
     skills: [
       {
-        name: "PostgreSQL",
-        image: "./images/postgresql.png", // Replace with your PostgreSQL local image
+        name: "Firebase",
+        icon: "fas fa-fire", // Fire icon for Firebase
       },
       {
         name: "MongoDB",
-        image: "./images/mongodb.png", // Replace with your MongoDB local image
+        icon: "fas fa-leaf", // Custom leaf icon for MongoDB
       },
       {
-        name: "Firebase",
-        image: "./images/firebase.png", // Replace with your Firebase local image
+        name: "PostgreSQL",
+        icon: "fas fa-database", // Generic database icon for PostgreSQL
       },
     ],
   },
@@ -70,23 +107,44 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: "./images/git.png", // Replace with your Git local image
+        icon: "fab fa-git-alt", // Git icon from Font Awesome
+      },
+      {
+        name: "VS Code",
+        icon: "fas fa-code", // Generic code icon for VS Code
+      },
+      {
+        name: "PyCharm",
+        icon: "fas fa-laptop-code", // Generic laptop code icon for PyCharm
+      },
+      {
+        name: "Android Studio",
+        icon: "fas fa-mobile-alt", // Mobile icon for Android Studio
+      },
+      {
+        name: "RESTapi",
+        icon: "fas fa-network-wired", // Network icon for REST API
       },
       {
         name: "Docker",
-        image: "./images/docker.png", // Replace with your Docker local image
+        icon: "fab fa-docker", // Docker icon from Font Awesome
       },
       {
         name: "AWS",
-        image: "./images/aws.png", // Replace with your AWS local image
+        icon: "fab fa-aws", // AWS icon from Font Awesome
+      },
+      {
+        name: "GCP",
+        icon: "fab fa-aws", // AWS icon from Font Awesome
       },
       {
         name: "Travis CI",
-        image: "./images/travisci.png", // Replace with your Travis CI local image
+        icon: "fas fa-tools", // Tools icon for Travis CI
       },
     ],
   },
 ];
+
 
 
 export const projects = [

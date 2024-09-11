@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { skills } from '../../data/constants';
 import { gsap } from 'gsap';
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Container = styled.div`
   display: flex;
@@ -22,19 +22,6 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   padding: 0 20px;
-`;
-
-export const Title = styled.div`
-  font-size: 28px;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 52px;
-  color: ${({ theme }) => theme.primary};
-  position: relative;
-  @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 24px;
-  }
 `;
 
 export const Desc = styled.div`
@@ -146,22 +133,23 @@ const SkillImage = styled.img`
 const SkillName = styled.span`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.colored_detail + 80};
+  color: yellow; // Changed color to white
 
   @media (max-width: 768px) {
     display: none;
   }
 `;
 
+
 const Skills = () => {
-  const [activeButton, setActiveButton] = useState('frontend');
+  const [activeButton, setActiveButton] = useState('all'); // Show all by default
   const skillsRef = useRef([]);
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
 
-  const filteredSkills = skills.filter(skill => skill.title.toLowerCase() === activeButton.toLowerCase());
+  const filteredSkills = activeButton === 'all' ? skills : skills.filter(skill => skill.title.toLowerCase() === activeButton.toLowerCase());
 
   useEffect(() => {
     if (skillsRef.current.length > 0) {
@@ -176,16 +164,23 @@ const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
-        <Desc>TECH STACK</Desc>
+        <Desc>Tech Skills</Desc>
+        <br/>
         <ButtonContainer>
-          <Button active={activeButton === 'frontend'} onClick={() => handleButtonClick('frontend')}>
-            Frontend
+          <Button active={activeButton === 'all'} onClick={() => handleButtonClick('all')}>
+            All
           </Button>
-          <Button active={activeButton === 'backend'} onClick={() => handleButtonClick('backend')}>
-            Backend
+          <Button active={activeButton === 'Languages'} onClick={() => handleButtonClick('Languages')}>
+            Languages
+          </Button>
+          <Button active={activeButton === 'Frameworks'} onClick={() => handleButtonClick('Frameworks')}>
+            Frameworks
           </Button>
           <Button active={activeButton === 'database'} onClick={() => handleButtonClick('database')}>
             Database
+          </Button>
+          <Button active={activeButton === 'tools'} onClick={() => handleButtonClick('tools')}>
+            Tools
           </Button>
         </ButtonContainer>
         <SkillsContainer>
@@ -195,7 +190,7 @@ const Skills = () => {
                 key={item.name}
                 ref={el => (skillsRef.current[skillIndex * skill.skills.length + index] = el)}
               >
-                <SkillImage src={item.image} />
+                {/* <SkillImage src={item.image} /> */}
                 <SkillName>{item.name}</SkillName>
               </Skill>
             ))
