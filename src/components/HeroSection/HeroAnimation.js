@@ -8,7 +8,7 @@ const ParticleBackground = ({ theme }) => {
         const ctx = canvas.getContext('2d');
         const particles = [];
         const numParticles = 60;
-        const particleColor = theme === 'light' ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)';
+        const particleColor = theme === 'light' ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 1)';
 
         const resizeCanvas = () => {
             canvas.width = window.innerWidth;

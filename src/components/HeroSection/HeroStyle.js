@@ -109,6 +109,7 @@ export const Img = styled.img`
     user-select: none;
     -moz-user-select: -moz-none;
     -webkit-user-select: none;
+    
     @media (max-width: 768px) {
         max-width: 400px;
         max-height: 400px;
@@ -117,15 +118,6 @@ export const Img = styled.img`
     @media (max-width: 640px) {
         max-width: 280px;
         max-height: 280px;
-    }
-
-    @keyframes glow {
-        0% {
-            box-shadow: 0 0 15px 0 ${({ theme }) => theme.colored_detail};
-        }
-        100% {
-            box-shadow: 0 0 20px 10px ${({ theme }) => theme.colored_detail};
-        }
     }
 `;
 
@@ -205,8 +197,8 @@ export const ResumeButton = styled.a`
 export const ResumeButtonComponent = () => {
     const handleDownload = (event) => {
         event.preventDefault();
-        const fileUrl = '/CV/CV.pdf';
-        const fileName = 'CV.pdf';
+        const fileUrl = '/resume.pdf';
+        const fileName = 'Abhishek Mishra.pdf';
 
         const link = document.createElement('a');
         link.href = fileUrl;
@@ -218,7 +210,7 @@ export const ResumeButtonComponent = () => {
 
     return (
         <ResumeButton href="#" onClick={handleDownload}>
-            Download CV
+            Download Resume
         </ResumeButton>
     );
 };

@@ -28,7 +28,7 @@ const Navbar = ({ toggleTheme }) => {
       <NavbarContainer>
         <NavLogo to='/'>
           <Span>
-            Your<ColoredSpan>Name</ColoredSpan>
+            Abhishek<ColoredSpan>Mishra</ColoredSpan>
           </Span>
         </NavLogo>
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
