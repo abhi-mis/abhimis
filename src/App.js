@@ -9,6 +9,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import styled from "styled-components";
+import Exp from "./components/Experience"
 import Projects from "./components/Projects";
 import ProjectPage from "./pages/ProjectPage/ProjectPage.js";
 import PostList from "./pages/BlogPage/PostList";
@@ -105,6 +106,7 @@ function App() {
                         <Route path="/" element={
                             <Home darkMode={darkMode} toggleTheme={toggleTheme} sectionsRef={sectionsRef} />
                         } />
+                        
                         <Route path="/project/:id" element={<ProjectPage theme={darkMode ? 'dark' : 'light'} />} />
                         <Route path="/blog" element={<PostList />} />
                         <Route path="/blog/:postName" element={<PostPage theme={darkMode ? 'dark' : 'light'} />} />

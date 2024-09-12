@@ -10,6 +10,37 @@ export const Bio = {
   resume: "https://drive.google.com/file/d/1xyz1234567890/view", // Replace with your resume link
   linkedin: "https://www.linkedin.com/in/abhiconnect/",
 };
+
+export const experience = [
+  {
+      id: 1,
+      role: "Junior Software Developer",
+      company: "Atomos Technology",
+      date: "Jan 2023 - Dec 2023",
+      description: "Worked on frontend development using React and Node.js. Developed several key features for the platform and collaborated with a team of engineers to enhance product scalability.",
+      tags: ["React", "Node.js", "JavaScript"],
+      image: "path_to_image", // Use the correct image path
+  },
+  {
+      id: 2,
+      role: "App Development Mentor",
+      company: "The Coder's Club",
+      date: "May 2022 - Nov 2022",
+      description: "Mentored students in app development, focusing on Flutter and Dart. Conducted workshops and guided them through building functional mobile applications.",
+      tags: ["Flutter", "Dart", "Mentorship"],
+      image: "path_to_image", // Use the correct image path
+  },
+  {
+      id: 3,
+      role: "Club Editor",
+      company: "Rotaract Club of MCKVIE",
+      date: "Aug 2021 - Mar 2022",
+      description: "Handled editorial responsibilities and managed content for club events. Worked closely with the team to promote initiatives and publish newsletters.",
+      tags: ["Content Management", "Leadership"],
+      image: "path_to_image", // Use the correct image path
+  },
+];
+
 export const skills = [
   {
     title: "Languages",
