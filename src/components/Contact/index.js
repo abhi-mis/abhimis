@@ -129,7 +129,7 @@ const Contact = () => {
 
     const handleSubmit = useCallback((e) => {
         e.preventDefault();
-        emailjs.sendForm('[Your_Service_ID]', '[Your_Template_ID]', form.current, '[Your_User_ID]')
+        emailjs.sendForm('service_o54nqfd', 'template_flbpl3k', form.current, 'QL2bVkOFwvyihjGTE')
             .then(() => {
                 setOpen(true);
                 setErrorMessage('');

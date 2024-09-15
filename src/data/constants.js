@@ -189,6 +189,7 @@ export const projects = [
     tags: [
       "NextJS",
       "Tailwind CSS",
+      "TypeScript",
       "EthersJS",
       "NodeJS",
       "Solidity",
@@ -196,7 +197,7 @@ export const projects = [
     ],
     category: "web",
     github: "https://github.com/abhi-mis/BlockFI",
-    webapp: "https://blockfi.vercel.app", // Replace with the link to the live project or demo
+    webapp: "https://block-fi.vercel.app", // Replace with the link to the live project or demo
   },
   {
     id: 2,
@@ -214,7 +215,7 @@ export const projects = [
     ],
     category: "web",
     github: "https://github.com/abhi-mis/PixMender",
-    webapp: "https://pix-mender.example.com", // Replace with the link to the live project or demo
+    webapp: "https://pixmender.netlify.app", // Replace with the link to the live project or demo
   },
   {
     id: 3,
@@ -223,12 +224,13 @@ export const projects = [
     description: "Designed and developed features for a Decentralized Finance platform leveraging blockchain technology. Facilitated peer-to-peer financial services like lending, borrowing, and trading through smart contracts written in Solidity. Utilized stablecoins to minimize market volatility and enhance user experience within the DeFi ecosystem.",
     image: "https://i.imghippo.com/files/XwhrH1726049966.png", // Replace with the link to the project image
     tags: [
-      "NextJS",
+      "ReactJS",
       "Tailwind CSS",
-      "EthersJS",
+      "JavaScript",
       "NodeJS",
-      "Solidity",
-      "Metamask"
+      "MongoDB",
+      "Firebase",
+      "Vercel"
     ],
     category: "web",
     github: "https://github.com/abhi-mis/Pragati2024",
@@ -241,16 +243,18 @@ export const projects = [
     description: "Designed and developed features for a Decentralized Finance platform leveraging blockchain technology. Facilitated peer-to-peer financial services like lending, borrowing, and trading through smart contracts written in Solidity. Utilized stablecoins to minimize market volatility and enhance user experience within the DeFi ecosystem.",
     image: "https://i.imghippo.com/files/5FbRF1726050117.png", // Replace with the link to the project image
     tags: [
-      "NextJS",
-      "Tailwind CSS",
-      "EthersJS",
+      "ReactJS",
+      "CSS",
+      "JavaScript",
       "NodeJS",
-      "Solidity",
-      "Metamask"
+      "MongoDB",
+      "Firebase",
+      "Python"
+
     ],
     category: "web",
-    github: "https://github.com/abhi-mis/Pragati2024",
-    webapp: "https://pragati2024.online", // Replace with the link to the live project or demo
+    github: "https://github.com/abhi-mis/Pipeline-Designer",
+    webapp: "https://pipeline-designer-delta.vercel.app/", // Replace with the link to the live project or demo
   },
   // Add more projects following the same structure
 ];

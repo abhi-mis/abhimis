@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaTwitter, FaLinkedin, FaDiscord, FaChevronUp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaDiscord, FaChevronUp, FaCode,  } from 'react-icons/fa';
 import { ColoredSpan } from '../Navbar/NavbarStyledComponent';
 import { useNavigate } from 'react-router-dom';
 
@@ -127,16 +127,16 @@ const Footer = () => {
                     </FooterLink>
                 </FooterLinks>
                 <SocialIcons>
-                    <SocialIcon href="https://github.com/[YourProfile]" target="_blank" rel="noopener noreferrer">
+                    <SocialIcon href="https://github.com/abhi-mis" target="_blank" rel="noopener noreferrer">
                         <FaGithub />
                     </SocialIcon>
-                    <SocialIcon href="https://www.twitch.tv/[YourProfile]" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter />
+                    <SocialIcon href="https://leetcode.com/u/abhi_mis/" target="_blank" rel="noopener noreferrer">
+                        <FaCode />
                     </SocialIcon>
-                    <SocialIcon href="https://discord.com/users/[YourProfile]" target="_blank" rel="noopener noreferrer">
+                    <SocialIcon href="https://discord.com/users/abhi_mis" target="_blank" rel="noopener noreferrer">
                         <FaDiscord />
                     </SocialIcon>
-                    <SocialIcon href="https://www.linkedin.com/in/[YourProfile]/" target="_blank" rel="noopener noreferrer">
+                    <SocialIcon href="https://www.linkedin.com/in/abhiconnect/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin />
                     </SocialIcon>
                 </SocialIcons>

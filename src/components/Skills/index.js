@@ -133,7 +133,7 @@ const Skill = styled.div`
 const SkillName = styled.span`
   font-size: 16px;
   font-weight: 400;
-  color: yellow; // Changed color to white
+  color: grey; // Changed color to white
 
   @media (max-width: 768px) {
     display: none;
