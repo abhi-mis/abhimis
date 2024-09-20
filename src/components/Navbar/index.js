@@ -39,7 +39,7 @@ const Navbar = ({ toggleTheme }) => {
           <NavItems>
             <NavLink onClick={() => handleNavigation('/', '#skills')}>Skills</NavLink>
             <NavLink onClick={() => handleNavigation('/', '#projects')}>Projects</NavLink>
-            {/* <NavLink href='/blog'>Blog</NavLink> */}
+            <NavLink href='/blog'>Blog</NavLink>
             <GitHubButton href={Bio.github} target="_blank">Github</GitHubButton>
             <ThemeButton onClick={toggleTheme}><LightBulbIcon /></ThemeButton>
           </NavItems>

@@ -156,7 +156,7 @@ const PostPage = ({ theme }) => {
             <Wrapper>
                 <Meta>
                     <Avatar src={avatar} alt="Avatar" />
-                    <span>YourName</span>
+                    <span>Abhishek Mishra</span>
                 </Meta>
                 {loading ? (
                     <Loader>Loading...</Loader>
